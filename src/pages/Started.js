@@ -1,7 +1,8 @@
 import React from 'react';
+import MainPageLayout from '../components/MainPageLayout';
 
 const Started = () => {
-  return <div>This is Started Page</div>;
+  return <MainPageLayout>This is Started Page</MainPageLayout>;
 };
 
 export default Started;
