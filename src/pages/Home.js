@@ -13,7 +13,7 @@ const Home = () => {
 
   const onSearch = () => {
     // https://api.tvmaze.com/search/shows?q=men
-    apiGet(`search/${searchOption}?q=${input}`).then(result => {
+    apiGet(`/search/${searchOption}?q=${input}`).then(result => {
       setResults(result);
       // console.log(result);
     });
